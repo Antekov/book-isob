@@ -1,0 +1,52 @@
+
+
+% Title page
+\begin{titlepage}
+    {\begingroup
+\ThisCenterWallPaper{1.0}{Обложка.jpg}
+\noindent
+\endgroup}
+\clearpage
+
+\input{frontmatter/copyrightpage}
+
+\clearpage
+	{\begingroup
+    \centering % Center all text
+    \vfill
+    \parbox{\textwidth}{%
+    \rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt} % Thick horizontal line
+    \rule{\textwidth}{0.4pt}\\[0.2\baselineskip] % Thin horizontal line
+    % {\parbox[c][4em][c]{2cm}{\pgfornament[height=4em]{19}}}\hfill
+    \parbox{\textwidth}{%
+    \parbox[c][2cm][c]{2cm}{\scalebox{-1}[1]{}}
+    ~ \hrulefill ~
+    \parbox[c][2cm][c]{5cm}{\centering\textsc{\LARGE \textbf{Исоб}}}
+     ~\hrulefill ~
+    \parbox[c][2cm][c]{2cm}{\scalebox{-1}[1]{}}}\\[0.2\baselineskip] % Title
+    \rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt} % Thin horizontal line
+    \rule{\textwidth}{1.6pt}}\\[2\baselineskip] % Thick horizontal line
+    
+    \href{https://ficbook.net/readfic/9298368}{https://ficbook.net/readfic/9298368} \\[0.5\baselineskip] % Tagline(s) or further description
+     % Location and year
+    \vspace*{4\baselineskip} % Whitespace between location/year and editors
+    {\scshape % Small caps
+        Автор: \\[0.5\baselineskip]
+        {\Large \authorfname} \\ [0.5\baselineskip]
+    }
+    (\href{https://ficbook.net/authors/4261936}{https://ficbook.net/authors/4261936}) \\
+    
+    \vfill \vfill
+    {Фэндом: \fbox{Ориджиналы}} % Editor affiliation
+    
+   
+    \vfill % Whitespace between editor names and publisher logo
+    \fbox{PG-13} \\[0.3\baselineskip] % Publisher logo
+    {\scshape 2020} \\[0.3\baselineskip] % Year published
+    
+    \endgroup}
+    \clearpage
+    \centering
+    \fbox{Примечание автора}
+    
+\end{titlepage}

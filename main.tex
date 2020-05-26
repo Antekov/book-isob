@@ -1,0 +1,41 @@
+\documentclass[12pt,openany]{book}      % paper size is in preamble.sty
+
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+
+\usepackage{wallpaper}
+\usepackage{hyperref}
+
+%%%%%%%%%% BOOK INFORMATION %%%%%%%%%%
+\newcommand{\authorfname}{Mrazall}
+\newcommand{\booktitle}{Исоб}
+\newcommand{\subtitle}{}
+\newcommand{\publisher}{\href{https://ficbook.net/readfic/9298368}{ficbook.net}}
+\newcommand{\editionyear}{2020}
+\newcommand{\isbn}{978-3-16-148410-0}   % replace this with your own ISBN
+\title{\booktitle}
+\author{\authorfname}
+
+
+\usepackage{misc/options}
+\usepackage[english, russian]{babel}
+
+\begin{document}
+\frontmatter
+
+\input{frontmatter/titlepage}
+
+% \input{frontmatter/preface}
+\input{frontmatter/tocpage}
+
+\mainmatter
+\pagestyle{fancy}
+
+\input{content/chapter1}
+\input{content/chapter2}
+\input{content/chapter3}
+\input{content/chapter4}
+\input{content/chapter5}
+\input{content/chapter6}
+\input{content/chapter7}
+\end{document}
